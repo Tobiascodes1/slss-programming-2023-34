@@ -1,0 +1,7 @@
+sec = 11
+for _ in range(sec):
+    sec -= 1
+    if sec == 0:
+        print("Happy New Year!")
+    else:
+        print(sec)
