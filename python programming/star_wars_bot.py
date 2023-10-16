@@ -1,3 +1,8 @@
+# Star Wars Bot
+# Author: Toby Ma
+# October 16, 2023
+
+
 yes = ["yes","yeah","yup","yea","ya","correct","affirmative"]
 ds = 0
 
