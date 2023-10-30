@@ -1,3 +1,0 @@
-ubials_inventory = ["sword", "shield", "flask", "phone", "bigger sword"]
-
-print("SWORD".lower() in ubials_inventory)
