@@ -1,0 +1,106 @@
+# Pumpkin Drawing
+# Author:
+# Date: 31 October 2023
+
+import turtle
+import time
+
+
+window = turtle.Screen()
+window.bgcolor("black")
+
+# Whole pumpkin
+pumpkin = turtle.Turtle()
+pumpkin.hideturtle()
+pumpkin.color("orange")
+pumpkin.dot(200)
+pumpkin.speed(0)
+
+# The turtle to "carve" the pumpkin
+carver = turtle.Turtle()
+carver.speed(0)
+
+# "Flatten" the lower part of the pumpkin
+carver.penup()
+carver.setposition(-200, -100)
+carver.pensize(60)
+carver.pendown()
+carver.forward(600)
+carver.pensize(4)
+carver.color("yellow")
+
+# Nose
+carver.penup()
+carver.setposition(-15, -20)
+carver.fillcolor("yellow")
+carver.begin_fill()
+carver.pendown()
+carver.forward(30)
+carver.left(120)
+carver.forward(30)
+carver.left(120)
+carver.forward(30)
+carver.left(120)
+carver.end_fill()
+
+#mouth
+carver.penup()
+carver.setposition(-60,-50)
+carver.pendown()
+carver.pensize(5)
+carver.color("yellow")
+carver.left(45)
+carver.forward(15)
+carver.right(90)
+carver.forward(15)
+carver.left(90)
+carver.forward(15)
+carver.right(90)
+carver.forward(15)
+carver.left(90)
+carver.forward(15)
+carver.right(90)
+carver.forward(15)
+carver.left(90)
+carver.forward(15)
+carver.right(90)
+carver.forward(15)
+carver.left(90)
+carver.forward(15)
+carver.right(90)
+carver.forward(15)
+carver.left(90)
+carver.forward(15)
+
+
+#eyes
+carver.pencolor("black")
+carver.right(160)
+carver.penup()
+carver.setposition(40,60)
+carver.fillcolor("yellow")
+carver.begin_fill()
+carver.pendown()
+carver.forward(50)
+carver.left(120)
+carver.forward(50)
+carver.left(120)
+carver.forward(50)
+carver.left(120)
+carver.end_fill()
+carver.right(310)
+carver.penup()
+carver.setposition(-50,60)
+carver.fillcolor("yellow")
+carver.begin_fill()
+carver.pendown()
+carver.forward(50)
+carver.right(120)
+carver.forward(50)
+carver.right(120)
+carver.forward(50)
+carver.right(120)
+carver.end_fill()
+
+
+turtle.done()
