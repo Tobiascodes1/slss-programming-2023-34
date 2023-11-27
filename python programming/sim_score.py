@@ -1,7 +1,7 @@
 p1 = input()
-i1 = p1.split()
+i1 = p1.lower().strip("!@#$%^&*").split()
 p2 = input()
-i2 = p2.split()
+i2 = p2.lower().strip("!@#$%^&*").split()
 
 sim_hobbies = 0
 for interest in i1:

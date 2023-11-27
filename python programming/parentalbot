@@ -1,0 +1,12 @@
+qs = ["eat", "study", "do your laundry", "call grandma"]
+points = 0
+for i in range(4):
+    a = input(f"Did you {qs[i]}?")
+    if a == "yes":
+        points += 1
+if points < 1:
+    print("I'm coming over")
+elif points >= 1 and points < 3:
+    print("OK")
+else:
+    print("Good!")
