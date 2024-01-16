@@ -1,5 +1,5 @@
 # Jelly Bean Colour Counter
-# Author: Ubial
+# Author: Toby (Copied from github from Mr.Ubial)
 # 9 January 2024
 
 # Version 0.1 ---
